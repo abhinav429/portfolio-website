@@ -2,7 +2,7 @@
 
 A personal portfolio site showcasing my projects, skills, and contact info. Built with React, Vite, and Tailwind CSS.
 
-**Live site:** [Add your Vercel/live URL here after deployment]
+**Live site:** [https://abhinav-portfolio-website-lime.vercel.app/](https://abhinav-portfolio-website-lime.vercel.app/)
 
 ---
 
@@ -14,18 +14,6 @@ A personal portfolio site showcasing my projects, skills, and contact info. Buil
 - **Lucide React** — Icons
 - **Radix UI** — Toast component
 - **React Router** — Routing
-
----
-
-## Features
-
-- Hero, About, Skills, Projects, and Contact sections
-- Light/dark mode with theme persistence
-- Animated star background and scroll effects
-- Responsive layout and mobile navigation
-- Filterable skills by category (frontend, backend, tools)
-- Project cards with demo and GitHub links
-- Contact form (Formspree)
 
 ---
 
@@ -56,5 +44,3 @@ The app can be deployed to [Vercel](https://vercel.com), [Netlify](https://netli
 1. Push the repo to GitHub.
 2. Import the repository in Vercel/Netlify.
 3. Deploy (default build command: `npm run build`, output: `dist`).
-
-After deployment, add your live URL at the top of this README.
