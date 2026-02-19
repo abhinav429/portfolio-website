@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Classroom Management System",
     description: "Campus classroom management including subjects, departments & classes.",
-    image: "/projects/project8.jpeg",
+    image: "/projects/project8.png",
     tags: ["React", "TypeScript", "TailwindCSS", "Express", "PostgreSQL", "Drizzle"],
     demoUrl: "https://classroom-orcin-eight.vercel.app/login",
     githubUrl: "https://github.com/abhinav429/classroom",
