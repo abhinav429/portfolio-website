@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Classroom Management System",
+    description: "Campus classroom management including subjects, departments & classes.",
+    image: "/projects/project8.jpeg",
+    tags: ["React", "TypeScript", "TailwindCSS", "Express", "PostgreSQL", "Drizzle"],
+    demoUrl: "https://classroom-orcin-eight.vercel.app/login",
+    githubUrl: "https://github.com/abhinav429/classroom",
+  },
+  {
+    id: 1,
     title: "Price Tracker",
     description: "A price tracking web app to detect price drops and notify you.",
     image: "/projects/project5.jpeg",
