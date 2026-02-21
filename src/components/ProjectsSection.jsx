@@ -12,6 +12,15 @@ const projects = [
   },
   {
     id: 2,
+    title: "Twitter Clone",
+    description: "Full-stack social feed with posts, follow system, likes, comments & notifications.",
+    image: "/projects/project9.jpeg",
+    tags: ["React", "TailwindCSS", "DaisyUI", "Express", "MongoDB", "Cloudinary"],
+    demoUrl: "https://twitter-clone-jpa0.onrender.com",
+    githubUrl: "https://github.com/abhinav429/twitter-clone",
+  },
+  {
+    id: 3,
     title: "Price Tracker",
     description: "A price tracking web app to detect price drops and notify you.",
     image: "/projects/project5.jpeg",
@@ -20,7 +29,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Price-Tracker",
   },
   {
-    id: 3,
+    id: 4,
     title: "ML based Spam Classifier",
     description:
       "Machine learning-powered SMS spam classifier with statistics dashboard, and prediction history tracking.",
@@ -30,7 +39,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Spam-Classifier",
   },
   {
-    id: 4,
+    id: 5,
     title: "Docs App",
     description:
       "A frontend interface for a site to manage and download documents.",
@@ -40,7 +49,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Documents-Website",
   },
   {
-    id: 5,
+    id: 6,
     title: "Atmos Weather App",
     description:
       "A weather application to view weather conditions, forecasts, and location-based weather data.",
@@ -50,7 +59,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Atmos-Weather-App",
   },
   {
-    id: 6,
+    id: 7,
     title: "AI Background Remover",
     description:
       "Web app that removes image backgrounds using AI.",
