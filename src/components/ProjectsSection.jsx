@@ -2,6 +2,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    "id": 2,
+    "title": "Book — AI Voice Book Companion",
+    "description": "Upload PDFs, pick a voice persona, and talk to your books in real time.",
+    "image": "/projects/project10.png",
+    "tags": ["Next.js","TypeScript","Tailwind CSS","MongoDB"],
+    "demoUrl": "https://book-sepia-theta.vercel.app/",
+    "githubUrl": "https://github.com/abhinav429/Book"
+  },
+  {
     id: 1,
     title: "Classroom Management System",
     description: "Campus classroom management including subjects, departments & classes.",
