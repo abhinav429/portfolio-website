@@ -2,6 +2,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    "id": 3,
+    "title": "LegalTrace — Legal RAG Workspace",
+    "description": "For legal teams: upload documents, search your library, and get answers from your files without AI based hallucinations.",
+    "image": "/projects/legaltrace.png",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
+    "demoUrl": "https://legal-trace.vercel.app/",
+    "githubUrl": "https://github.com/abhinav429/LegalTrace"
+  },
+  {
     "id": 2,
     "title": "Book — AI Voice Book Companion",
     "description": "Upload PDFs, pick a voice persona, and talk to your books in real time.",
