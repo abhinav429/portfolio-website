@@ -11,6 +11,15 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/LegalTrace"
   },
   {
+    "id": 4,
+    "title": "AI Cooking — Smart Pantry Recipe Assistant",
+    "description": "For home cooks: scan pantry items, discover global recipes, and generate AI-powered meal ideas with step-by-step cooking guidance.",
+    "image": "/projects/ai_cooking.png",
+    "tags": ["Next.js", "JavaScript", "Tailwind CSS", "Strapi", "PostgreSQL", "Docker"],
+    "demoUrl": "https://ai-cooking-two.vercel.app/",
+    "githubUrl": "https://github.com/abhinav429/ai-cooking"
+  },
+  {
     "id": 2,
     "title": "Book — AI Voice Book Companion",
     "description": "Upload PDFs, pick a voice persona, and talk to your books in real time.",
