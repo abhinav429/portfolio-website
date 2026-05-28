@@ -2,7 +2,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    "id": 3,
+    "id": 1,
     "title": "LegalTrace — Legal RAG Workspace",
     "description": "For legal teams: upload documents, search your library, and get answers from your files without AI based hallucinations.",
     "image": "/projects/legaltrace.png",
@@ -11,7 +11,16 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/LegalTrace"
   },
   {
-    "id": 4,
+    "id": 2,
+    "title": "Collab Code — Real-time Collaborative Editor",
+    "description": "Create shareable rooms, co-edit code with live cursors and presence, and run JavaScript with a room-wide shared output log—deployed on AWS with Docker.",
+    "image": "/projects/collabcode.png",
+    "tags": ["React", "Yjs", "Socket.IO","Docker","Aws Cloud"],
+    "demoUrl": "http://docker-aws-alb-598735799.ap-northeast-1.elb.amazonaws.com/",
+    "githubUrl": "https://github.com/abhinav429/collab-code"
+  },
+  {
+    "id": 3,
     "title": "AI Cooking — Smart Pantry Recipe Assistant",
     "description": "For home cooks: scan pantry items, discover global recipes, and generate AI-powered meal ideas with step-by-step cooking guidance.",
     "image": "/projects/ai_cooking.png",
@@ -20,7 +29,7 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/ai-cooking"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Book — AI Voice Book Companion",
     "description": "Upload PDFs, pick a voice persona, and talk to your books in real time.",
     "image": "/projects/project10.png",
@@ -29,7 +38,7 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/Book"
   },
   {
-    id: 1,
+    id: 5,
     title: "Classroom Management System",
     description: "Campus classroom management including subjects, departments & classes.",
     image: "/projects/project8.png",
@@ -38,7 +47,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/classroom",
   },
   {
-    id: 2,
+    id: 6,
     title: "Twitter Clone",
     description: "Full-stack social feed with posts, follow system, likes, comments & notifications.",
     image: "/projects/project9.jpeg",
@@ -47,7 +56,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/twitter-clone",
   },
   {
-    id: 3,
+    id: 7,
     title: "Price Tracker",
     description: "A price tracking web app to detect price drops and notify you.",
     image: "/projects/project5.jpeg",
@@ -56,7 +65,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Price-Tracker",
   },
   {
-    id: 4,
+    id: 8,
     title: "ML based Spam Classifier",
     description:
       "Machine learning-powered SMS spam classifier with statistics dashboard, and prediction history tracking.",
@@ -66,7 +75,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Spam-Classifier",
   },
   {
-    id: 5,
+    id: 9,
     title: "Docs App",
     description:
       "A frontend interface for a site to manage and download documents.",
@@ -76,7 +85,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Documents-Website",
   },
   {
-    id: 6,
+    id: 10,
     title: "Atmos Weather App",
     description:
       "A weather application to view weather conditions, forecasts, and location-based weather data.",
@@ -86,7 +95,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Atmos-Weather-App",
   },
   {
-    id: 7,
+    id: 11,
     title: "AI Background Remover",
     description:
       "Web app that removes image backgrounds using AI.",
