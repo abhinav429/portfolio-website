@@ -1,4 +1,4 @@
-import { Code, User } from "lucide-react";
+import { BrainCircuit, Code } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -12,17 +12,23 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & AI Enthusiast
+              Full-Stack Developer · Web & AI Products
             </h3>
 
             <p className="text-muted-foreground">
-              I focus on creating responsive, scalable, and performant web
-              applications using modern technologies.
+              I&apos;m a final-year CS student at VIT who builds end-to-end web
+              and AI applications.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about solving complex problems and creating a lasting impact. I constantly learn new technologies and
-              techniques to stay at the forefront of current trends.
+              I work across React, Next.js, Node.js, and Spring Boot, and I care
+              about taking projects from idea to something people actually use.
+            </p>
+
+            <p className="text-muted-foreground">
+              I have experience working at a startup, co-authored published
+              research in computer vision, and built full-stack platforms
+              including real-time tools deployed on AWS.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -40,10 +46,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">Full-Stack Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    React, Next.js, Node.js, and Spring Boot apps with real users
+                    and production-style workflows.
                   </p>
                 </div>
               </div>
@@ -51,13 +57,12 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <BrainCircuit className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">AI & Backend Systems</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    RAG apps, APIs, databases, and Docker/AWS deployments.
                   </p>
                 </div>
               </div>
