@@ -12,6 +12,15 @@ const projects = [
   },
   {
     "id": 2,
+    "title": "InsightAgent — LangGraph Analytics Agent",
+    "description": "LangGraph agent that turns business questions into SQL, charts, and reports with guardrails, MCP tools, eval suite, and cost dashboard",
+    "image": "/projects/insight_agent.png",
+    "tags": ["LangGraph", "FastAPI", "Streamlit", "Python", "Docker", "MCP"],
+    "demoUrl": "https://insightagent-khhd.onrender.com/",
+    "githubUrl": "https://github.com/abhinav429/InsightAgent"
+  },
+  {
+    "id": 3,
     "title": "Collab Code — Real-time Collaborative Editor",
     "description": "Create shareable rooms, co-edit code with live cursors and presence, and run JavaScript with a room-wide shared output log—deployed on AWS with Docker.",
     "image": "/projects/collabcode.png",
@@ -20,7 +29,7 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/collab-code"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "AI Cooking — Smart Pantry Recipe Assistant",
     "description": "For home cooks: scan pantry items, discover global recipes, and generate AI-powered meal ideas with step-by-step cooking guidance.",
     "image": "/projects/ai_cooking.png",
@@ -29,7 +38,7 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/ai-cooking"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Book — AI Voice Book Companion",
     "description": "Upload PDFs, pick a voice persona, and talk to your books in real time.",
     "image": "/projects/project10.png",
@@ -38,7 +47,7 @@ const projects = [
     "githubUrl": "https://github.com/abhinav429/Book"
   },
   {
-    id: 5,
+    id: 6,
     title: "Classroom Management System",
     description: "Campus classroom management including subjects, departments & classes.",
     image: "/projects/project8.png",
@@ -47,7 +56,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/classroom",
   },
   {
-    id: 6,
+    id: 7,
     title: "Twitter Clone",
     description: "Full-stack social feed with posts, follow system, likes, comments & notifications.",
     image: "/projects/project9.jpeg",
@@ -56,7 +65,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/twitter-clone",
   },
   {
-    id: 7,
+    id: 8,
     title: "Price Tracker",
     description: "A price tracking web app to detect price drops and notify you.",
     image: "/projects/project5.jpeg",
@@ -65,7 +74,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Price-Tracker",
   },
   {
-    id: 8,
+    id: 9,
     title: "ML based Spam Classifier",
     description:
       "Machine learning-powered SMS spam classifier with statistics dashboard, and prediction history tracking.",
@@ -75,7 +84,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Spam-Classifier",
   },
   {
-    id: 9,
+    id: 10,
     title: "Docs App",
     description:
       "A frontend interface for a site to manage and download documents.",
@@ -85,7 +94,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Documents-Website",
   },
   {
-    id: 10,
+    id: 11,
     title: "Atmos Weather App",
     description:
       "A weather application to view weather conditions, forecasts, and location-based weather data.",
@@ -95,7 +104,7 @@ const projects = [
     githubUrl: "https://github.com/abhinav429/Atmos-Weather-App",
   },
   {
-    id: 11,
+    id: 12,
     title: "AI Background Remover",
     description:
       "Web app that removes image backgrounds using AI.",
